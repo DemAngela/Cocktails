@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*==========header==========*/
+
+.header {
+    /*padding: 20px;*/
+    background-color: #181814;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #d1cac8;
+    font-family: 'EB Garamond', serif;
+    font-weight:  700;
+}
+
+.active {
+    background-color: #6c1316;
+}
+
+a:hover {
+    background-color: #6c1316;
+
+}
+
+/*==========section home===========*/
+
+.home {
+    background-image: linear-gradient(rgba(24, 24, 20, 0.78), rgba(24, 24, 20, 0.78)),
+    url("./assets/patrick-tomasso-n-vxsHr9jZA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    color: #d1cac8;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.home p {
+    color: #d1cac8;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    text-align:  center;
+    width: 1000px;
+}
+
+/*===========section catalog ===========*/
+
+.catalog {
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, #181814, #360a0c);
+}
+
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 15px;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    /*box-shadow: 0px 0px 20px 16px rgba(65, 57, 55, 0.2);*/
+    border: 10px;
+    box-shadow: 0px 0px 20px 16px rgba(199, 43, 48, 0.2);
+}
+
+.card h2 {
+    background-color: #899691;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+
+.card h4 {
+    background-color: #6f4f4b;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 10px;
+    color: #899691;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+ul {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    color: #899691;
+    font-family: 'EB Garamond', serif;
+    font-weight:  700;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
