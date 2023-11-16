@@ -183,6 +183,7 @@ input[type='radio']:checked::after {
 }
 
 .resultWrap {
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
